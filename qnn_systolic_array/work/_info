@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Project/NPU_Project/qnn_systolic_array
+vqnn_mac_pe
+Z1 !s110 1780402477
+!i10b 1
+!s100 odMZ;19Y;]J?Af;`bJHD62
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii2z1nU95<FnK@ljfIZkg30
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1780402464
+8qnn_mac_pe.v
+Fqnn_mac_pe.v
+!i122 2
+L0 2 49
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1780402477.000000
+!s107 tb_qnn_top_system.v|qnn_top_system.v|qnn_systolic_array_2d.v|qnn_pe_cell.v|qnn_mac_pe.v|
+Z6 !s90 qnn_mac_pe.v|qnn_pe_cell.v|qnn_systolic_array_2d.v|qnn_top_system.v|tb_qnn_top_system.v|
+!i113 1
+Z7 tCvgOpt 0
+vqnn_pe_cell
+R1
+!i10b 1
+!s100 c;FYTEz=WAB4@`kRE0fP93
+R2
+I=l2^GToVUJ`0C<zSHkflO0
+R3
+R0
+w1780402238
+8qnn_pe_cell.v
+Fqnn_pe_cell.v
+!i122 2
+L0 2 50
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 tb_qnn_top_system.v|qnn_top_system.v|qnn_systolic_array_2d.v|qnn_pe_cell.v|qnn_mac_pe.v|
+R6
+!i113 1
+R7
+vqnn_systolic_array_2d
+R1
+!i10b 1
+!s100 `bnb4d8fP8U0Jn<B1MZW^3
+R2
+IG]:O;J9Pk;N>][k2Rb5g<1
+R3
+R0
+w1780400560
+8qnn_systolic_array_2d.v
+Fqnn_systolic_array_2d.v
+!i122 2
+L0 2 68
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vqnn_top_system
+R1
+!i10b 1
+!s100 [_;QH]hTJ2[?3kMRDQSdV0
+R2
+IbFefkBbQfRo[4KoZ^MJ2<2
+R3
+R0
+w1780400663
+8qnn_top_system.v
+Fqnn_top_system.v
+!i122 2
+L0 2 87
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vtb_qnn_top_system
+R1
+!i10b 1
+!s100 54Pz=Y3^G=]C^0XOCD]>C0
+R2
+I7JN]dk]2o>gKQRQim^Bh81
+R3
+R0
+w1780400707
+8tb_qnn_top_system.v
+Ftb_qnn_top_system.v
+!i122 2
+L0 3 107
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
