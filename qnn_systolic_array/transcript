@@ -1,18 +1,9 @@
-# vsim -c tb_qnn_top_system -do "run -all; quit" 
-# Start time: 23:28:47 on Jun 02,2026
+# vsim work.tb_qnn_top_system 
+# Start time: 15:38:43 on Jun 03,2026
 # Loading work.tb_qnn_top_system
 # Loading work.qnn_top_system
 # Loading work.qnn_systolic_array_2d
 # Loading work.qnn_pe_cell
 # Loading work.qnn_mac_pe
-# run -all
-# [TB INFO] Starting parallel-input / sequential-output QNN test.
-# [RESULT] OUT0(PE00) =  40 (Expected: 40)
-# [RESULT] OUT1(PE01) =  20 (Expected: 20)
-# [RESULT] OUT2(PE10) =  48 (Expected: 48)
-# [RESULT] OUT3(PE11) =  24 (Expected: 24)
-# [TB INFO] Parallel input and sequential output verified successfully.
-# ** Note: $finish    : tb_qnn_top_system.v(83)
-#    Time: 96 ns  Iteration: 0  Instance: /tb_qnn_top_system
-# End time: 23:28:48 on Jun 02,2026, Elapsed time: 0:00:01
+# End time: 15:38:47 on Jun 03,2026, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 0

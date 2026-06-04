@@ -10,112 +10,117 @@ z2
 cModel Technology
 Z0 dC:/Project/NPU_Project/qnn_systolic_array
 vqnn_mac_pe
-Z1 !s110 1780410527
+Z1 !s110 1780468590
 !i10b 1
 !s100 FldLE7^l=4<2K1aL^Ia?S2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I1ciCD4BmzYLo5H25ELGjo3
+IAlHKa5cD>6XjAQNLa9aLj0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1780410306
+w1780463013
 8qnn_mac_pe.v
 Fqnn_mac_pe.v
-!i122 13
+!i122 14
 L0 2 47
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1780410527.000000
+Z5 !s108 1780468590.000000
 !s107 tb_qnn_top_system.v|qnn_top_system.v|qnn_systolic_array_2d.v|qnn_pe_cell.v|qnn_mac_pe.v|
-Z6 !s90 qnn_mac_pe.v|qnn_pe_cell.v|qnn_systolic_array_2d.v|qnn_top_system.v|tb_qnn_top_system.v|
+Z6 !s90 qnn_mac_pe.v|qnn_pe_cell.v|qnn_systolic_array_2d.v|qnn_top_system.v|tb_qnn_top_system.v|+acc|
 !i113 1
-Z7 tCvgOpt 0
+Z7 o+acc
+Z8 tCvgOpt 0
 vqnn_pe_cell
 R1
 !i10b 1
 !s100 I=R=hi@XVmo6SGb;>YaV]0
 R2
-I2TbjQ<VC<^0NISm8Oobhc1
+I>h@]kH?Aj^5ZU0P]HJ2f@2
 R3
 R0
-w1780408920
+w1780463015
 8qnn_pe_cell.v
 Fqnn_pe_cell.v
-!i122 13
+!i122 14
 L0 2 42
 R4
 r1
 !s85 0
 31
 R5
-Z8 !s107 tb_qnn_top_system.v|qnn_top_system.v|qnn_systolic_array_2d.v|qnn_pe_cell.v|qnn_mac_pe.v|
+Z9 !s107 tb_qnn_top_system.v|qnn_top_system.v|qnn_systolic_array_2d.v|qnn_pe_cell.v|qnn_mac_pe.v|
 R6
 !i113 1
 R7
+R8
 vqnn_systolic_array_2d
 R1
 !i10b 1
 !s100 m802?EWBjdRH6eW=DkR?H3
 R2
-I7ljXGabSk[5?Ab3L_E3X21
+I:?6?0M_9:3O52Oo1D[LFX2
 R3
 R0
-w1780410380
+w1780463017
 8qnn_systolic_array_2d.v
 Fqnn_systolic_array_2d.v
-!i122 13
+!i122 14
 L0 2 63
 R4
 r1
 !s85 0
 31
 R5
-R8
+R9
 R6
 !i113 1
 R7
+R8
 vqnn_top_system
 R1
 !i10b 1
-!s100 eiN8VcZ;25MU0leodZjJf3
+!s100 >NJ_>`PZbmY83RWaD^N?X2
 R2
-Ihgn0bl:B_6cf6`aVYe7DG2
+I4Qj1WX?g?V[AD77@[GbDV1
 R3
 R0
-w1780409446
+w1780467182
 8qnn_top_system.v
 Fqnn_top_system.v
-!i122 13
-L0 2 67
+!i122 14
+L0 2 65
 R4
 r1
 !s85 0
 31
 R5
-R8
+R9
 R6
 !i113 1
 R7
+R8
 vtb_qnn_top_system
-R1
+!s110 1780468591
 !i10b 1
 !s100 NJ_T@Ln6MQ4dKP>^_n`9S1
 R2
-IlPfBWI8]CAUZo1ddd`Z2B0
+I:64`b5BNX121Il`=1_56G3
 R3
 R0
 w1780409592
 8tb_qnn_top_system.v
 Ftb_qnn_top_system.v
-!i122 13
+!i122 14
 L0 3 84
 R4
 r1
 !s85 0
 31
 R5
-R8
+R9
 R6
 !i113 1
 R7
+R8

@@ -1,0 +1,34 @@
+# vsim work.tb_qnn_top_system 
+# Start time: 15:39:08 on Jun 03,2026
+# Loading work.tb_qnn_top_system
+# Loading work.qnn_top_system
+# Loading work.OAI21X1
+# Loading work.INVX1
+# Loading work.NAND2X1
+# Loading work.AOI22X1
+# Loading work.NOR2X1
+# Loading work.AOI21X1
+# Loading work.AND2X2
+# Loading work.OR2X2
+# Loading work.NAND3X1
+# Loading work.DFFSR
+# Loading work.BUFX2
+# Loading work.NOR3X1
+# Loading work.udp_dff
+add wave *
+run -all
+# [TB INFO] Starting parallel-input / sequential-output QNN test.
+# [RESULT] OUT0(PE00) =  40 (Expected: 40)
+# [RESULT] OUT1(PE01) =  40 (Expected: 20)
+# [TB ERROR] PE01 mismatch: got  40, expected 20
+# [RESULT] OUT2(PE10) =  20 (Expected: 48)
+# [TB ERROR] PE10 mismatch: got  20, expected 48
+# [RESULT] OUT3(PE11) =  48 (Expected: 24)
+# [TB ERROR] PE11 mismatch: got  48, expected 24
+# [TB INFO] Parallel input and sequential output verified successfully.
+# ** Note: $finish    : tb_qnn_top_system.v(84)
+#    Time: 106 ns  Iteration: 0  Instance: /tb_qnn_top_system
+# 1
+# Break in Module tb_qnn_top_system at tb_qnn_top_system.v line 84
+# End time: 15:41:35 on Jun 03,2026, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 0
